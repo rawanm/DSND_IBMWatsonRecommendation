@@ -1,20 +1,24 @@
-# Data Scientist Nanodegree
-"Gain real-world data science experience with projects designed by industry experts. Build your portfolio and advance your data science career."
+# Recommendations with IBM Project
+> This project (Recommendations with IBM) is part of Udacity's Data Scientists Nanodegree Program. 
 
-[Udacity](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
+### Introduction: 
+This project builds a recommendation system, where it analyzes the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles you think they will like. This project uses data from [IBM Watson Studio platform](https://dataplatform.cloud.ibm.com).
 
-## Projects:
-This Repository contains the projects I have worked on to complete Udacity "Data Scientist Nanodegree" program:
+### Project Components:
 
-1. [Finding Donors for CharityML](): will be uploaded later
-2. [Create Your Own Image Classifier](): will be uploaded later
-3. [Creating Customer Segments with Arvato](): will be uploaded later
+1. Exploratory Data Analysis: 
+    Explores the data and provides statistics and visuals about the dataset. 
 
-4. [Write A Data Science Blog Post](https://github.com/rawanm/DataScientistNanodegree/tree/master/P4_WriteBlogPost): 
-Pick a dataset, apply CRISP-DM process and choose 3 questions you aspire to answer from the data.
+2. Rank Based Recommendations: 
+    Provides recommendations based on Rank of top interacted aricles. 
 
-5. [Disaster Response Pipelines](https://github.com/rawanm/DataScientistNanodegree/tree/master/P5_DisasterResponsePipelines):
-Creating a machine learning pipeline to categorize real messages that were sent during disaster events, so that you can send the messages to an appropriate disaster relief agency. 
+3. User-User Based Collaborative Filtering: 
+    Provides recommendations based on similarity between users and most articles interacted. 
 
-6. [Recommendations with IBM](https://github.com/rawanm/DataScientistNanodegree/tree/master/p6_IBMWatsonRecommendation): 
-Analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles you think they will like.
+4. Matrix Factorization: 
+    Builds and evaluates a machine learning model based on user-item interaction and matrix decomposition. 
+
+### Instructions:
+This project is provided as Jupyter notebook, it's also available in HTML format. 
+
+
